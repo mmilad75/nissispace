@@ -1,12 +1,8 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Index from './navigators';
 
 const App: React.FC = () => {
-  return (
-    <View>
-      <Text>milad</Text>
-    </View>
-  );
+  return <Index />;
 };
 
 export default App;
