@@ -41,12 +41,12 @@ const MainTab: React.FC = () => {
         tabBarIcon: ({focused}) => renderIcons({route, focused}),
       })}>
       <Tab.Screen
-        options={{title: '首页'}}
+        options={{title: '首页', tabBarActiveTintColor: '#000000'}}
         name={screens.mainTab.home}
         component={Home}
       />
       <Tab.Screen
-        options={{title: '通知'}}
+        options={{title: '通知', tabBarActiveTintColor: '#000000'}}
         name={screens.mainTab.notification}
         component={Notification}
       />
